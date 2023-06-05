@@ -30,3 +30,25 @@ https://pytorch.org/get-started/locally/
 pip install ultralytics
 ```
 至此，基本環境已建置完成
+## 4.辨識/訓練
+
+參考網址:
+https://hackmd.io/@luckychi/yolov8_simple_tutorial
+
+創建一個data.yaml檔
+
+```ccs
+path: C:/yolo/yolov8  #虛擬環境資料夾 OR data資料夾
+train: ./train/images #訓練
+val: ./valid/images
+test: ./test/images
+
+nc: 1
+names: [‘cat’]
+```
+
+訓練指令:
+```ccs
+yolo detect train data=data.yaml model=yolov8n.pt epochs=100 imgsz=320 conf=0 device=cpu
+```
+
