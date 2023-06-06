@@ -35,6 +35,11 @@ pip install ultralytics
 參考網址:
 https://hackmd.io/@luckychi/yolov8_simple_tutorial
 
+先在虛擬環境的資料夾下創建一個資料夾裡放https://www.larrysprognotes.com/files/splitFile.py
+，然後在裡面創一個檔名為:all的資料夾，裡面放訓練資料以及圖片
+
+注意:裡面一定要有classes.txt(裡面放labalimg的訓練資料)
+
 創建一個data.yaml檔
 
 ```ccs
