@@ -80,7 +80,7 @@ RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED
 
 使用以下指令進行估測
 ```ccs
-yolo detect predict model=best.pt source=test/images save=true device=cpu
+yolo task=detect mode=predict model=best.pt source=test/images save=true device=cpu
 ```
 當save=true時，會將預測的結果儲存在runs/detect/predict底下
 
