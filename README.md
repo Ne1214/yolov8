@@ -63,7 +63,7 @@ names: [‘cat’]#標註標籤名稱
 
 6.訓練指令:
 ```ccs
-yolo detect train data=data.yaml model=yolov8n.pt epochs=100 imgsz=320 conf=0 device=cpu #device更改cpu、gpu
+yolo task=detect mode=train data=data.yaml model=yolov8n.pt epochs=100 imgsz=320 conf=0 device=cpu #device更改cpu、gpu
 ```
 
 也可以使用Python指令來進行訓練
