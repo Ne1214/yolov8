@@ -57,7 +57,7 @@ train: ./train/train.txt #訓練圖片位置
 val: ./valid/val.txt #標註資料位置
 test: #資料位置
 
-nc: 1
+nc: 1 #標註數量
 names: [‘cat’]#標註標籤名稱
 ```
 
