@@ -99,6 +99,9 @@ yolo task=detect mode=track model=best.pt source=.mp4 save=true device=cpu #影�
 ```
 當save=true時，會將預測的結果儲存在runs/detect/predict底下
 
+<img width="659" alt="image" src="https://github.com/Ne1214/yolov8/assets/132657666/eec55729-a9c6-43f6-a5b6-e45e10430ad8">
+
+
 同樣以Python指令執行時
 
 <img width="538" alt="image" src="https://github.com/Ne1214/yolov8/assets/132657666/a6bd14de-c60e-4979-b96f-6ad9131bb157">
