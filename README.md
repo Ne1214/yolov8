@@ -1,5 +1,5 @@
 # yolov8
- 
+
  ## 1. 首先下載CUDA版本，以及cuDNN
 我們可以從NVIDIA官網進行下載，選定你的作業系統以及想要下載的版本
 
@@ -11,11 +11,19 @@ https://developer.nvidia.com/cuda-downloads
 
 <img width="547" alt="image" src="https://github.com/Ne1214/yolov8/assets/132657666/29d4fa9d-e925-4d75-9b57-3bcd4b6c0239">
 
-## 2. 接著安裝Python版本，筆者使用的版本是Python3.9，注意要從Python官網下載才行
-
+## 2. 接著安裝Python版本，筆者使用的版本是Python3.9，注意要從Python官網下載才行(anaconda也行)
 Python的版本需>=3.7
 
 https://www.python.org/
+
+anaconda虛擬機指令
+
+```
+conda create -n py36 python=3.6
+```
+```
+conda create --prefix=D:\python36\py36 python=3.9 #指定路徑
+```
 
 ## 3. 接下來透過pip進行安裝，可從PyTorch官網上選擇執行版本對應的指令
 
@@ -25,12 +33,14 @@ https://pytorch.org/get-started/locally/
 
 <img width="565" alt="image" src="https://github.com/Ne1214/yolov8/assets/132657666/7a7c6e26-7f3e-4ee7-aec0-fd6e96ac2cac">
 
-安裝YOLOv8
+## 4. 安裝YOLOv8
 ```ccs
 pip install ultralytics
 ```
 至此，基本環境已建置完成
-## 4.辨識/訓練
+PS.如果要使用追蹤的話，還有另一個版本(底下連結點選/原版本也可追蹤)
+https://github.com/RizwanMunawar/yolov8-object-tracking/tree/main
+## 5.辨識/訓練
 
 參考網址:
 https://hackmd.io/@luckychi/yolov8_simple_tutorial
