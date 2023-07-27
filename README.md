@@ -40,7 +40,9 @@ pip install ultralytics
 至此，基本環境已建置完成
 
 PS.如果要使用追蹤的話，還有另一個版本(底下連結點選/原版本也可追蹤)
+
 https://github.com/RizwanMunawar/yolov8-object-tracking/tree/main
+
 ## 5.辨識/訓練
 
 參考網址:
