@@ -48,7 +48,7 @@ https://github.com/RizwanMunawar/yolov8-object-tracking/tree/main
 參考網址:
 https://hackmd.io/@luckychi/yolov8_simple_tutorial
 ### 1.training
-1.先在虛擬環境的資料夾下創建一個資料夾裡放[FlitFile.py](https://www.larrysprognotes.com/files/splitFile.py)
+1.先在虛擬環境的資料夾下創建一個資料夾裡放[splitFile.py](https://www.larrysprognotes.com/files/splitFile.py)
 這個程式，然後在裡面創一個檔名為:all的資料夾，裡面放訓練資料以及圖片
 
 若要使用多標籤訓練請下載[finger_os.py](https://github.com/Ne1214/yolov8/blob/main/finger_os.py)
