@@ -11,7 +11,7 @@ if len(sys.argv) < 2:
 
 valNum = int(sys.argv[1])
 
-fin=['two','three','four','five','six','seven','eight','nine','ten']
+fin=['two','three','four','five','six','seven','eight','nine','ten']  #標籤名
 
 for lists in fin:
 
