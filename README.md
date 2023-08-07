@@ -51,6 +51,8 @@ https://hackmd.io/@luckychi/yolov8_simple_tutorial
 1.先在虛擬環境的資料夾下創建一個資料夾裡放https://www.larrysprognotes.com/files/splitFile.py
 這個程式，然後在裡面創一個檔名為:all的資料夾，裡面放訓練資料以及圖片
 
+若要使用多標籤訓練請下載finger_os.py
+
 注意:裡面一定要有classes.txt(裡面放labalimg的訓練資料)
 
 2.執行splitFile.py<img width="380" alt="image" src="https://github.com/Ne1214/yolov8/assets/132657666/6a42db5f-ce04-4d98-b716-7152b4df0c5a">
