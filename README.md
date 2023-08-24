@@ -91,7 +91,7 @@ RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED
 因此筆者下面都使用CPU來進行訓練與預測
 
 訓練完後的資料會出現在runs/detect/train底下，訓練好的模型放在runs/detect/train/weights底下，我們接下來將使用best.pt來進行估測
-### 2.predict
+## 2.預測\predict
 
 使用以下指令進行估測 
 ```ccs
