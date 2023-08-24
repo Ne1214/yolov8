@@ -96,7 +96,11 @@ RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED
 使用以下指令進行估測 
 ```ccs
 yolo task=detect mode=predict model=best.pt source=test/images save=true device=cpu #img
+```
+```ccs
 yolo task=detect mode=track model=best.pt source=0 device=0 show=true #即時追蹤 若有第二個wabcam source=1
+```
+```ccs
 yolo task=detect mode=track model=best.pt source=.mp4 save=true device=cpu #影片追蹤
 ```
 當save=true時，會將預測的結果儲存在runs/detect/predict底下
