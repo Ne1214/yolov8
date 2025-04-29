@@ -1,6 +1,6 @@
 # yolov8
 
- ## 1. 首先下載CUDA版本，以及cuDNN
+ ## 1. 首先下載CUDA版本、cuDNN(不一定要載)
 我們可以從NVIDIA官網進行下載，選定你的作業系統以及想要下載的版本
 
 https://developer.nvidia.com/cuda-downloads
